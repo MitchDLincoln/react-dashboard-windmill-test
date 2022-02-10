@@ -1,0 +1,15 @@
+const windmill = require('@windmill/react-ui/config')
+
+const config = {
+  content: ['./src/app/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+module.exports = {
+  ...windmill(config),
+  ...config,
+}
+
