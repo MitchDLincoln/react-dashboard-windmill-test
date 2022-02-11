@@ -13,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "tailwind:dev": "npx -i tailwindcss build src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",
+    "prestart": "npm run tailwind:dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Banana \"",
