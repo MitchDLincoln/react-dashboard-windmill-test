@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { Windmill } from '@windmill/react-ui'
 
 ReactDOM.render(
-  <Windmill dark>
+  <Windmill usePreferences>
     <App />
   </Windmill>,
   document.getElementById('root')
