@@ -6,10 +6,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Windmill } from '@windmill/react-ui'
 
+import { SidebarProvider } from './context/SidebarContext'
+
 ReactDOM.render(
-  <Windmill dark>
-    <App />
-  </Windmill>,
+  
+  <SidebarProvider >
+    <Windmill dark>
+      <App />
+    </Windmill>
+  </SidebarProvider>,
+
+
   document.getElementById('root')
 );
 
