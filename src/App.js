@@ -1,5 +1,5 @@
 import React, { lazy } from 'react'
-import { Router, Switch, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 
 const Layout = lazy(() => import('./containers/Layout'))
 
